@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Turn_based_battle"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Turn_based_battle">
+				<Option output="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Turn_based_battle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 Turn_based_battle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Turn_based_battle/fast">
+				<Option output="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Turn_based_battle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 Turn_based_battle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Battle.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Battle.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Combatant.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Combatant.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Npc_Enemies/Blob.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Npc_Enemies/Blob.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Npc_Enemies/Npc_Enemy.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Npc_Enemies/Npc_Enemy.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Npc_Friendlies/NPC_Friendly.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Npc_Friendlies/NPC_Friendly.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Player.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Combatants/Player.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Game.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Game.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Spells/Spell.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Spells/Spell.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Spells/Spell_PoisonCloud.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/Spells/Spell_PoisonCloud.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/TurnEffects/TurnEffect.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/TurnEffects/TurnEffect.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/TurnEffects/TurnEffect_Defend.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/TurnEffects/TurnEffect_Defend.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/TurnEffects/TurnEffect_Poison.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/TurnEffects/TurnEffect_Poison.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/main.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/stdafx.cpp">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/src/turn_based_battle/stdafx.h">
+			<Option target="Turn_based_battle"/>
+		</Unit>
+		<Unit filename="/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

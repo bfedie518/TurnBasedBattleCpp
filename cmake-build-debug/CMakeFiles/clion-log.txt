@@ -1,0 +1,4 @@
+/opt/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fedie/Programmierung/persoenlich/turn_based_battle_c++
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug
