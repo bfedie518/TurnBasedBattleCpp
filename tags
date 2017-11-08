@@ -1,0 +1,190 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASE_EXP	include/Blob.h	/^    const int BASE_EXP = 80;$/;"	m	class:Blob
+BASE_EXP	include/Npc_Enemy.h	/^    const int BASE_EXP = 100;$/;"	m	class:Npc_Enemy
+BINDIR	Makefile	/^BINDIR = bin$/;"	m
+Battle	include/Battle.h	/^class Battle {$/;"	c
+Battle	src/Battle.cpp	/^Battle::Battle(std::vector<Combatant *> playerTeam, std::vector<Combatant *> enemyTeam) {$/;"	f	class:Battle
+Blob	include/Blob.h	/^    Blob(std::string name, int health, int mana, int strength, int defense, int dexterity, int speed, int focus,$/;"	f	class:Blob
+Blob	include/Blob.h	/^class Blob : public Npc_Enemy {$/;"	c
+CC	Makefile	/^CC = g++$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -std=c++11 -c -Wall -I$(INCDIR)$/;"	m
+Combatant	include/Combatant.h	/^class Combatant {$/;"	c
+Combatant	src/Combatant.cpp	/^Combatant::Combatant(std::string name, int health, int mana, int strength, int defense, int dexterity, int speed,$/;"	f	class:Combatant
+DURATION	include/Spell_PoisonCloud.h	/^    const int DURATION = 5;$/;"	m	class:Spell_PoisonCloud
+EXEC	Makefile	/^EXEC = TurnBasedBattle$/;"	m
+Game	include/Game.h	/^class Game{$/;"	c
+Game	src/Game.cpp	/^Game::Game() {$/;"	f	class:Game
+INCDIR	Makefile	/^INCDIR = include$/;"	m
+INCS	Makefile	/^INCS = $(wildcard $(INCDIR)\/*.h)$/;"	m
+LFLAGS	Makefile	/^LFLAGS = -Wall -I. -lm$/;"	m
+MANA_COST	include/Spell.h	/^    const int MANA_COST = 10;$/;"	m	class:Spell
+MANA_COST	include/Spell_PoisonCloud.h	/^    const int MANA_COST = 15;$/;"	m	class:Spell_PoisonCloud
+NAME	include/Spell.h	/^    const std::string NAME = "Spell";$/;"	m	class:Spell
+NAME	include/Spell_PoisonCloud.h	/^    const std::string NAME = "Poison Cloud";$/;"	m	class:Spell_PoisonCloud
+NAME	include/TurnEffect.h	/^    const std::string NAME = "Turn Effect";$/;"	m	class:TurnEffect
+NAME	include/TurnEffect_Defend.h	/^    const std::string NAME = "defend";$/;"	m	class:TurnEffect_Defend
+NAME	include/TurnEffect_Poison.h	/^    const std::string NAME = "poison";$/;"	m	class:TurnEffect_Poison
+NPC_Friendly	include/NPC_Friendly.h	/^    NPC_Friendly(std::string name, int health, int mana, int strength, int defense, int dexterity,$/;"	f	class:NPC_Friendly
+NPC_Friendly	include/NPC_Friendly.h	/^class NPC_Friendly : public Combatant {$/;"	c
+Npc_Enemy	include/Npc_Enemy.h	/^    Npc_Enemy(std::string name, int health, int mana, int strength, int defense, int dexterity, int speed, int focus,$/;"	f	class:Npc_Enemy
+Npc_Enemy	include/Npc_Enemy.h	/^class Npc_Enemy : public Combatant {$/;"	c
+OBJDIR	Makefile	/^OBJDIR = build$/;"	m
+OBJS	Makefile	/^OBJS = $(SRCS:$(SRCDIR)\/%.cpp=$(OBJDIR)\/%.o)$/;"	m
+Player	include/Player.h	/^    Player(std::string name, int health, int mana, int strength, int defense, int dexterity,$/;"	f	class:Player
+Player	include/Player.h	/^class Player : public Combatant {$/;"	c
+SRCDIR	Makefile	/^SRCDIR = src$/;"	m
+SRCS	Makefile	/^SRCS = $(wildcard $(SRCDIR)\/*.cpp)$/;"	m
+Spell	include/Spell.h	/^class Spell {$/;"	c
+Spell_PoisonCloud	include/Spell_PoisonCloud.h	/^class Spell_PoisonCloud : public Spell{$/;"	c
+TURN_BASED_BATTLE_BATTLE_H	include/Battle.h	6;"	d
+TURN_BASED_BATTLE_BLOB_H	include/Blob.h	6;"	d
+TURN_BASED_BATTLE_COMBATANT_H	include/Combatant.h	6;"	d
+TURN_BASED_BATTLE_ENEMY_H	include/Npc_Enemy.h	6;"	d
+TURN_BASED_BATTLE_GAME_H	include/Game.h	6;"	d
+TURN_BASED_BATTLE_NPC_FRIENDLY_H	include/NPC_Friendly.h	6;"	d
+TURN_BASED_BATTLE_PLAYER_H	include/Player.h	6;"	d
+TURN_BASED_BATTLE_SPELL_H	include/Spell.h	6;"	d
+TURN_BASED_BATTLE_SPELL_POISONCLOUD_H	include/Spell_PoisonCloud.h	6;"	d
+TURN_BASED_BATTLE_STDAFX_H	include/stdafx.h	9;"	d
+TURN_BASED_BATTLE_TURNEFFECT_DEFEND_H	include/TurnEffect_Defend.h	6;"	d
+TURN_BASED_BATTLE_TURNEFFECT_H	include/TurnEffect.h	6;"	d
+TURN_BASED_BATTLE_TURNEFFECT_POISON_H	include/TurnEffect_Poison.h	6;"	d
+TurnEffect	include/TurnEffect.h	/^class TurnEffect {$/;"	c
+TurnEffect	src/TurnEffect.cpp	/^TurnEffect::TurnEffect(Combatant *owner, int duration) {$/;"	f	class:TurnEffect
+TurnEffect_Defend	include/TurnEffect_Defend.h	/^    TurnEffect_Defend(Combatant *owner, int duration) : TurnEffect(owner, duration) {};$/;"	f	class:TurnEffect_Defend
+TurnEffect_Defend	include/TurnEffect_Defend.h	/^class TurnEffect_Defend : public TurnEffect {$/;"	c
+TurnEffect_Poison	include/TurnEffect_Poison.h	/^    TurnEffect_Poison(Combatant *owner, int duration) : TurnEffect(owner, duration) {};$/;"	f	class:TurnEffect_Poison
+TurnEffect_Poison	include/TurnEffect_Poison.h	/^class TurnEffect_Poison : public TurnEffect {$/;"	c
+actDefense	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+actDexterity	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+actFocus	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+actHealth	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+actMana	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+actSpeed	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+actStrength	include/Combatant.h	/^    int actHealth, actMana, actStrength, actDefense, actDexterity, actSpeed, actFocus;$/;"	m	class:Combatant
+activateTurnEffects	src/Combatant.cpp	/^void Combatant::activateTurnEffects() {$/;"	f	class:Combatant
+activeTurnEffects	include/Combatant.h	/^    std::set<TurnEffect*> activeTurnEffects;$/;"	m	class:Combatant
+addSpell	src/Combatant.cpp	/^void Combatant::addSpell(Spell *newSpell) {$/;"	f	class:Combatant
+addTurnEffect	src/Combatant.cpp	/^void Combatant::addTurnEffect(TurnEffect *effect) {$/;"	f	class:Combatant
+affect	src/TurnEffect_Defend.cpp	/^void TurnEffect_Defend::affect(){$/;"	f	class:TurnEffect_Defend
+affect	src/TurnEffect_Poison.cpp	/^void TurnEffect_Poison::affect(){$/;"	f	class:TurnEffect_Poison
+attack	src/Blob.cpp	/^void Blob::attack(std::vector<Combatant*> playerTeam){$/;"	f	class:Blob
+attack	src/Player.cpp	/^bool Player::attack(std::vector<Combatant *> targets) {$/;"	f	class:Player
+attack	src/Player.cpp	/^void Player::attack(Combatant *enemy) {$/;"	f	class:Player
+baseDefense	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+baseDexterity	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+baseFocus	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+baseHealth	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+baseMana	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+baseSpeed	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+baseStrength	include/Combatant.h	/^    int baseHealth, baseMana, baseStrength, baseDefense, baseDexterity, baseSpeed, baseFocus;$/;"	m	class:Combatant
+battleCycle	src/Battle.cpp	/^bool Battle::battleCycle(std::vector<Combatant *> combatants, std::vector<Combatant *> playerTeam,$/;"	f	class:Battle
+cast	src/Spell_PoisonCloud.cpp	/^void Spell_PoisonCloud::cast(Combatant *user, Combatant *target) {$/;"	f	class:Spell_PoisonCloud
+chooseSpell	src/Player.cpp	/^bool Player::chooseSpell(Combatant *enemy) {$/;"	f	class:Player
+chooseSpell	src/Player.cpp	/^bool Player::chooseSpell(std::vector<Combatant *> targets) {$/;"	f	class:Player
+clearTurnEffects	src/Combatant.cpp	/^void Combatant::clearTurnEffects() {$/;"	f	class:Combatant
+cycle	src/TurnEffect.cpp	/^void TurnEffect::cycle() {$/;"	f	class:TurnEffect
+damageCalc	src/Battle.cpp	/^int Battle::damageCalc(Combatant *user, Combatant *target, int base) {$/;"	f	class:Battle
+defend	src/Blob.cpp	/^void Blob::defend() {$/;"	f	class:Blob
+defend	src/Player.cpp	/^void Player::defend() {$/;"	f	class:Player
+detOrder	src/Battle.cpp	/^std::vector<Combatant *> Battle::detOrder(std::vector<Combatant *> combatants) {$/;"	f	class:Battle
+detOrder	src/Battle.cpp	/^std::vector<Combatant *> Battle::detOrder(std::vector<Combatant *> playerTeam, std::vector<Combatant *> enemyTeam) {$/;"	f	class:Battle
+determineLevel	src/Player.cpp	/^void Player::determineLevel(){$/;"	f	class:Player
+displaySpellList	src/Combatant.cpp	/^int Combatant::displaySpellList() {$/;"	f	class:Combatant
+displayTargets	src/Combatant.cpp	/^int Combatant::displayTargets(std::vector<Combatant *> targets) {$/;"	f	class:Combatant
+duration	include/TurnEffect.h	/^    int duration;$/;"	m	class:TurnEffect
+endBattle	src/Battle.cpp	/^void Battle::endBattle(bool playerWon, std::vector<Combatant *> playerTeam, std::vector<Combatant *> enemyTeam) {$/;"	f	class:Battle
+enemyName	src/Game.cpp	/^std::string Game::enemyName(int i) {$/;"	f	class:Game
+exp	include/Combatant.h	/^    int level, exp;$/;"	m	class:Combatant
+generateCombatant	src/Game.cpp	/^Combatant *Game::generateCombatant(std::string name, bool isEnemy) {$/;"	f	class:Game
+getActDefense	src/Combatant.cpp	/^int Combatant::getActDefense() const {$/;"	f	class:Combatant
+getActDexterity	src/Combatant.cpp	/^int Combatant::getActDexterity() const {$/;"	f	class:Combatant
+getActFocus	src/Combatant.cpp	/^int Combatant::getActFocus() const {$/;"	f	class:Combatant
+getActHealth	src/Combatant.cpp	/^int Combatant::getActHealth() const {$/;"	f	class:Combatant
+getActMana	src/Combatant.cpp	/^int Combatant::getActMana() const {$/;"	f	class:Combatant
+getActSpeed	src/Combatant.cpp	/^int Combatant::getActSpeed() const {$/;"	f	class:Combatant
+getActStrength	src/Combatant.cpp	/^int Combatant::getActStrength() const {$/;"	f	class:Combatant
+getBaseDefense	src/Combatant.cpp	/^int Combatant::getBaseDefense() const {$/;"	f	class:Combatant
+getBaseDexterity	src/Combatant.cpp	/^int Combatant::getBaseDexterity() const {$/;"	f	class:Combatant
+getBaseExp	include/Blob.h	/^    virtual int getBaseExp() {return Blob::BASE_EXP;}$/;"	f	class:Blob
+getBaseExp	include/Npc_Enemy.h	/^    virtual int getBaseExp() { return Npc_Enemy::BASE_EXP; }$/;"	f	class:Npc_Enemy
+getBaseFocus	src/Combatant.cpp	/^int Combatant::getBaseFocus() const {$/;"	f	class:Combatant
+getBaseHealth	src/Combatant.cpp	/^int Combatant::getBaseHealth() const {$/;"	f	class:Combatant
+getBaseMana	src/Combatant.cpp	/^int Combatant::getBaseMana() const {$/;"	f	class:Combatant
+getBaseSpeed	src/Combatant.cpp	/^int Combatant::getBaseSpeed() const {$/;"	f	class:Combatant
+getBaseStrength	src/Combatant.cpp	/^int Combatant::getBaseStrength() const {$/;"	f	class:Combatant
+getDuration	src/TurnEffect.cpp	/^int TurnEffect::getDuration() const{$/;"	f	class:TurnEffect
+getExp	src/Combatant.cpp	/^int Combatant::getExp() const {$/;"	f	class:Combatant
+getLevel	src/Combatant.cpp	/^int Combatant::getLevel() const {$/;"	f	class:Combatant
+getManaCost	include/Spell.h	/^    virtual int getManaCost() {return Spell::MANA_COST;}$/;"	f	class:Spell
+getManaCost	include/Spell_PoisonCloud.h	/^    virtual int getManaCost() {return Spell_PoisonCloud::MANA_COST;}$/;"	f	class:Spell_PoisonCloud
+getName	include/Spell.h	/^    virtual std::string getName(){return Spell::NAME;}$/;"	f	class:Spell
+getName	include/Spell_PoisonCloud.h	/^    virtual std::string getName(){return Spell_PoisonCloud::NAME;}$/;"	f	class:Spell_PoisonCloud
+getName	include/TurnEffect.h	/^    virtual std::string getName(){return TurnEffect::NAME;}$/;"	f	class:TurnEffect
+getName	include/TurnEffect_Defend.h	/^    virtual std::string getName(){return TurnEffect_Defend::NAME;}$/;"	f	class:TurnEffect_Defend
+getName	include/TurnEffect_Poison.h	/^    virtual std::string getName(){return TurnEffect_Poison::NAME;}$/;"	f	class:TurnEffect_Poison
+getName	src/Combatant.cpp	/^std::string Combatant::getName() const {$/;"	f	class:Combatant
+getPlayerWon	src/Battle.cpp	/^bool Battle::getPlayerWon() const {$/;"	f	class:Battle
+hasTurnEffect	src/Combatant.cpp	/^bool Combatant::hasTurnEffect(std::string name) {$/;"	f	class:Combatant
+isStillAlive	src/Battle.cpp	/^bool Battle::isStillAlive(std::vector<Combatant *> team) {$/;"	f	class:Battle
+level	include/Combatant.h	/^    int level, exp;$/;"	m	class:Combatant
+levelUp	src/Player.cpp	/^void Player::levelUp() {$/;"	f	class:Player
+main	src/main.cpp	/^int main() {$/;"	f
+modActDefense	src/Combatant.cpp	/^void Combatant::modActDefense(double mod) {$/;"	f	class:Combatant
+modActDefense	src/Combatant.cpp	/^void Combatant::modActDefense(int mod) {$/;"	f	class:Combatant
+modActDexterity	src/Combatant.cpp	/^void Combatant::modActDexterity(double mod) {$/;"	f	class:Combatant
+modActDexterity	src/Combatant.cpp	/^void Combatant::modActDexterity(int mod) {$/;"	f	class:Combatant
+modActFocus	src/Combatant.cpp	/^void Combatant::modActFocus(double mod) {$/;"	f	class:Combatant
+modActFocus	src/Combatant.cpp	/^void Combatant::modActFocus(int mod) {$/;"	f	class:Combatant
+modActHealth	src/Combatant.cpp	/^void Combatant::modActHealth(double mod) {$/;"	f	class:Combatant
+modActHealth	src/Combatant.cpp	/^void Combatant::modActHealth(int mod) {$/;"	f	class:Combatant
+modActMana	src/Combatant.cpp	/^void Combatant::modActMana(double mod) {$/;"	f	class:Combatant
+modActMana	src/Combatant.cpp	/^void Combatant::modActMana(int mod) {$/;"	f	class:Combatant
+modActSpeed	src/Combatant.cpp	/^void Combatant::modActSpeed(double mod) {$/;"	f	class:Combatant
+modActSpeed	src/Combatant.cpp	/^void Combatant::modActSpeed(int mod) {$/;"	f	class:Combatant
+modActStrength	src/Combatant.cpp	/^void Combatant::modActStrength(double mod) {$/;"	f	class:Combatant
+modActStrength	src/Combatant.cpp	/^void Combatant::modActStrength(int mod) {$/;"	f	class:Combatant
+modBaseDefense	src/Combatant.cpp	/^void Combatant::modBaseDefense(int mod) {$/;"	f	class:Combatant
+modBaseDexterity	src/Combatant.cpp	/^void Combatant::modBaseDexterity(int mod) {$/;"	f	class:Combatant
+modBaseFocus	src/Combatant.cpp	/^void Combatant::modBaseFocus(int mod) {$/;"	f	class:Combatant
+modBaseHealth	src/Combatant.cpp	/^void Combatant::modBaseHealth(int mod) {$/;"	f	class:Combatant
+modBaseMana	src/Combatant.cpp	/^void Combatant::modBaseMana(int mod) {$/;"	f	class:Combatant
+modBaseSpeed	src/Combatant.cpp	/^void Combatant::modBaseSpeed(int mod) {$/;"	f	class:Combatant
+modBaseStrength	src/Combatant.cpp	/^void Combatant::modBaseStrength(int mod) {$/;"	f	class:Combatant
+modExp	src/Combatant.cpp	/^void Combatant::modExp(int mod){$/;"	f	class:Combatant
+modExp	src/Player.cpp	/^void Player::modExp(int mod){$/;"	f	class:Player
+modLevel	src/Combatant.cpp	/^void Combatant::modLevel(int mod){$/;"	f	class:Combatant
+myTurn	src/Blob.cpp	/^void Blob::myTurn(std::vector<Combatant*> playerTeam, std::vector<Combatant*> enemyTeam){$/;"	f	class:Blob
+myTurn	src/Player.cpp	/^void Player::myTurn(Combatant *enemy) {$/;"	f	class:Player
+myTurn	src/Player.cpp	/^void Player::myTurn(std::vector<Combatant *> playerTeam, std::vector<Combatant *> enemyTeam) {$/;"	f	class:Player
+name	include/Combatant.h	/^    std::string name;$/;"	m	class:Combatant
+operator <	src/Combatant.cpp	/^bool operator<(const Combatant &c1, const Combatant &c2) {$/;"	f
+owner	include/TurnEffect.h	/^    Combatant *owner;$/;"	m	class:TurnEffect
+playerWon	include/Battle.h	/^    bool playerWon;$/;"	m	class:Battle
+removeTurnEffect	src/Combatant.cpp	/^void Combatant::removeTurnEffect(TurnEffect *effect) {$/;"	f	class:Combatant
+rm	Makefile	/^rm = rm -f$/;"	m
+setActDefense	src/Combatant.cpp	/^void Combatant::setActDefense(int defense) {$/;"	f	class:Combatant
+setActDexterity	src/Combatant.cpp	/^void Combatant::setActDexterity(int dexterity) {$/;"	f	class:Combatant
+setActFocus	src/Combatant.cpp	/^void Combatant::setActFocus(int focus) {$/;"	f	class:Combatant
+setActHealth	src/Combatant.cpp	/^void Combatant::setActHealth(int health) {$/;"	f	class:Combatant
+setActMana	src/Combatant.cpp	/^void Combatant::setActMana(int mana) {$/;"	f	class:Combatant
+setActSpeed	src/Combatant.cpp	/^void Combatant::setActSpeed(int speed) {$/;"	f	class:Combatant
+setActStrength	src/Combatant.cpp	/^void Combatant::setActStrength(int strength) {$/;"	f	class:Combatant
+setBaseDefense	src/Combatant.cpp	/^void Combatant::setBaseDefense(int defense) {$/;"	f	class:Combatant
+setBaseDexterity	src/Combatant.cpp	/^void Combatant::setBaseDexterity(int dexterity) {$/;"	f	class:Combatant
+setBaseFocus	src/Combatant.cpp	/^void Combatant::setBaseFocus(int focus) {$/;"	f	class:Combatant
+setBaseHealth	src/Combatant.cpp	/^void Combatant::setBaseHealth(int health) {$/;"	f	class:Combatant
+setBaseMana	src/Combatant.cpp	/^void Combatant::setBaseMana(int mana) {$/;"	f	class:Combatant
+setBaseSpeed	src/Combatant.cpp	/^void Combatant::setBaseSpeed(int speed) {$/;"	f	class:Combatant
+setBaseStrength	src/Combatant.cpp	/^void Combatant::setBaseStrength(int strength) {$/;"	f	class:Combatant
+setName	src/Combatant.cpp	/^void Combatant::setName(std::string name) {$/;"	f	class:Combatant
+spellList	include/Combatant.h	/^    std::vector<Spell*> spellList;$/;"	m	class:Combatant
+teammateName	src/Game.cpp	/^std::string Game::teammateName(int i) {$/;"	f	class:Game
+willHit	src/Battle.cpp	/^bool Battle::willHit(Combatant *user, Combatant *target, int base) {$/;"	f	class:Battle
+~Battle	include/Battle.h	/^    ~Battle() {};$/;"	f	class:Battle
+~Combatant	src/Combatant.cpp	/^Combatant::~Combatant() {$/;"	f	class:Combatant
