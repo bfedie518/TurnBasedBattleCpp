@@ -1,3 +1,0 @@
-/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/fedie/Programmierung/persoenlich/turn_based_battle_c++/cmake-build-debug/CMakeFiles/Turn_based_battle.dir
